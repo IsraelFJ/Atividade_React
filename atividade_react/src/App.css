@@ -1,0 +1,96 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: url(https://img.freepik.com/vetores-gratis/paisagem-do-deserto-fundo-para-videoconferencia_23-2148642195.jpg?semt=ais_hybrid&w=740);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+h1{
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="texte"]{
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button{
+  background-color: #007bff;
+  color:white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition:  0.3 ease;
+}
+
+button:hover{
+  background-color: #0056b3;
+}
+
+hr{
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  width: 80%;
+}
+
+ol{
+  list-style-type: decimal;
+  padding-left: 20px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+ol li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+
+}
+
+al li :last-child{
+  border-bottom: none;
+
+}
+
+.pedidos {
+  
+  display: flex; /* Ativa o Flexbox para as listas dentro de 'pedidos' */
+  flex-direction: row; /* Coloca as listas lado a lado */
+  align-items: flex-start; /* Alinha os itens no topo (opcional) */
+}
+
+.pedidos > ol {
+  width: 200px;
+  flex: 1; /* Faz com que cada lista ocupe o mesmo espaço disponível */
+  margin-right: 20px; /* Adiciona um espaço entre as listas (opcional) */
+  padding-left: 0; /* Remove o padding padrão da <ol> (opcional) */
+  list-style-position: inside; /* Garante que os números da lista fiquem dentro do item */
+}
+
+
+
